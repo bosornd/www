@@ -128,7 +128,7 @@ post-list:
     msg:
       property_list:
         # keys need to match with /query/post-query.json
-        tags: 꼬리표
+        tags: 태그
         category: 범주
         year: 년도
       # you can use these wildcards, {property} {value} {thumb}
@@ -137,20 +137,20 @@ post-list:
 # for home layout
 home:
   title: 환영
-  button_name: 홈
+  button_name: Home
   new_posts_title: 새로운 기사
   new_posts_show_more_button: 더보기 ...
 
 # for archives layout
 archives:
-  title: 아카이브
-  button_name: 아카이브
-  page_header: 아카이브
+  title: Archive
+  button_name: Archive
+  page_header: Archive
 
 # for about layout
 about:
-  title: 에 대한
-  button_name: 에 대한
+  title: About
+  button_name: About
   email_title: 이메일
 
 # for links layout

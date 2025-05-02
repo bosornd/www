@@ -25,7 +25,9 @@ default_lng: en
 # to prevent adding languages with no folder
 # single language disables language switch
 # language order is linked to array order
-language_switch_lang_list: [en, ja, pt, fr, zh, ko, tr, es]
+# language_switch_lang_list: [en, ja, pt, fr, zh, ko, tr, es]
+language_switch_lang_list: [en, ko]
+language_switch: false
 
 # if the opened page is not in the user's language list,
 # suggest language(s) matching with the one(s) in browser language list and user language list.
@@ -66,7 +68,7 @@ sample_replace: "$site_sample"
 ###########################################################
 # to enable search feature, set to true
 # if you disable this feature, you don't need search.json file so please open the file and uncomment the "published: false"
-search_enable: true
+search_enable: false
 
 # if this is true, search list hides with mouse leave event
 # if this is false, search list hides with mouse click event
@@ -187,14 +189,14 @@ side_nav_close_limit: 767px
 side_and_top_nav_buttons:
   - home:
     icon: "fa fa-home"
-  - post-list:
-    icon: "fa fa-pencil-square-o"
-  - archives:
-    icon: "fa fa-archive"
-  - projects:
-    icon: "fa fa-cog"
-  - links:
-    icon: "fa fa-link"
+#  - post-list:
+#    icon: "fa fa-pencil-square-o"
+#  - archives:
+#    icon: "fa fa-archive"
+#  - projects:
+#    icon: "fa fa-cog"
+#  - links:
+#    icon: "fa fa-link"
   - about:
     icon: "fa fa-user-o"
 
@@ -239,7 +241,7 @@ contacts_mastodon_link_verification: false
 # this will add contact form feature.
 # make sure google_forms_contact_form_url is set in _data/owner/[language].yml
 contact_form:
-  enable: false
+  enable: true
   # select one below
   # 1. slideBoxTopToDown
   # 2. slideBoxBottomToUp

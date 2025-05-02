@@ -4,7 +4,7 @@ layout: about
 lng_pair: id_about
 
 # image for page specific usage
-img: ":about.jpg"
+#img: ":about.jpg"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -34,11 +34,34 @@ img: ":about.jpg"
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
 #published: false
+#---
+#
+#{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+#
+#{%- include util/auto-content-generator.liquid -%}
+#{{ website_info_text_first }}
+#
+#{{ website_info_text_second }}
+
 ---
+# A Guide to the Right Path in Software Development  
+I am here to guide you in designing and developing the high-quality software.  
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+# Experience  
+* **🏢 Samsung Electronics Software Architect (2007–2015)**  
+  - Led **📺 digital TV platform development and global commercialization**  
+  - 🏆 **Winner of Samsung Electronics Year-End Grand Award** (2007)  
+  - ✅ **Samsung Electronics Certified Software Architect** (2008)  
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+* **🌍 Dispatched to India Research Center (2010–2015)**  
+  - Strengthened the development capabilities of overseas research centers and fostered architects  
 
-{{ website_info_text_second }}
+* **📚 Software Architecture Education & Certification Business (2016–Present)**  
+  - Trained numerous developers to grow into high-quality software experts  
+
+# Vision  
+* 🔍 Software design determines quality. The decisions you make in architecture directly impact the outcome.  
+* 🚀 I am committed to helping you make optimal design and grow into an expert who prioritizes quality and efficiency.  
+* 💡 Join me in exploring the world of software design and take your development skills to the next level!  
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/JB-bzP4Xcc0' frameborder='0' allowfullscreen></iframe></div>

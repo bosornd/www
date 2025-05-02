@@ -2,13 +2,13 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "사이트 이름"
+brand: "보이는 소프트웨어"
 
 # text below the brand name
-brand_sub_text: "$site_sample"
+brand_sub_text: "조용진"
 
 # used for seo meta post author (if it's not defined in post)
-name: "저자 이름"
+name: "조용진"
 
 # home page top header texts
 home:
@@ -19,11 +19,11 @@ home:
 
 # about page sub title
 about:
-  sub_title: "$site_sample"
+  sub_title: "조용진"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
-copyright_start_year: "2022"
+copyright_start_year: "2016"
 
 # make sure creative_commons.enable is true in _data/conf/main.yml file
 creative_commons:
@@ -37,24 +37,24 @@ creative_commons:
   # 4. by-nc     Attribution-NonCommercial 4.0 International
   # 5. by-nc-nd  Attribution-NonCommercial-NoDerivatives 4.0 International
   # 6. by-nc-sa  Attribution-NonCommercial-ShareAlike 4.0 International
-  license_type: "by-sa"
+  license_type: "by-nc"
 
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: "귀하의 메타 설명."
+meta_common_description: "소프트웨어 아키텍트이자 학습 촉진자"
 
 # contact options (side nav bottom and about page)
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
-  #- email: ""
+  - github: "bosornd"
+  - email: "mailto://drajin.cho@bosornd.com"
   #- linkedin: ""
   #- twitter: ""
   #- mastodon: ""
   #- instagram: ""
-  #- youtube: ""
+  - youtube: "@bosornd"
   #- facebook: ""
 # to add more, check the _data/const/contact.yml file
 #  - your_new_contact: ""
@@ -69,9 +69,9 @@ comments:
   # - Get the corresponding items and fill in the items below.
   # For other settings, please check the _data/conf/posts.yml file.
   giscus:
-    repo: ""
+    repo: "adr"
     repo-id: ""
-    category: ""
+    category: "giscus"
     category-id: ""
 
 # if no id is provided, this feature will be disabled.
