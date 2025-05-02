@@ -69,10 +69,10 @@ comments:
   # - Get the corresponding items and fill in the items below.
   # For other settings, please check the _data/conf/posts.yml file.
   giscus:
-    repo: "adr"
-    repo-id: ""
+    repo: "bosornd/adr"
+    repo-id: "R_kgDOOdviPw"
     category: "giscus"
-    category-id: ""
+    category-id: "DIC_kwDOOdviP84Cpssg"
 
 
 # if no id is provided, this feature will be disabled.
